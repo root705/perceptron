@@ -80,3 +80,15 @@ void train( void )
 
    return;
 }
+
+
+void main( void )
+{
+   initialize( );
+
+   train( );
+
+   printf("Final weights %f %f bias %f\n", weights[0], weights[1], weights[2]);
+
+   return;
+}
